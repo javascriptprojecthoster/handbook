@@ -362,7 +362,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 .info{
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   font-size: 20px;
   margin-top: 40px;
