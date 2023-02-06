@@ -367,6 +367,7 @@ p {
   font-size: 20px;
   margin-top: 40px;
   padding-bottom: 20px;
+  text-align: justify;
 }
 </style>
 
