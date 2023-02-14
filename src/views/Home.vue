@@ -10,7 +10,9 @@
       <img :src="catalog.img" alt="" />
       <p class="name">{{ catalog.name }}</p>
     </router-link>
+     <p>Сайт посвящен 78-летию Победы советского народа в Великой Отечественной войне. В ней рассказывается о наиболее известных образцах отечественного вооружения и военной техники, сыгравших важную роль в Великой Отечественной войне и ставших символами Победы. Иллюстрированное рисунками, издание станет полезным не только учителям, но ученикам среднего и старшего школьного возраста, а также всем тем, кто интересуется военной историей России.</p>
   </div>
+
   <h1 class="title">ТЕХНИКА</h1>
   <div class="form-group">
     <label for="category">Выберите категорию:</label>
@@ -229,6 +231,19 @@ img {
   color: rgb(207, 216, 220);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+  display: block;
+  max-width: 1100px;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  font-size: calc(15px + (25 - 15) * ((100vw - 320px) / (1200 - 320)));
+  font-weight: 400;
+  color: rgb(207, 216, 220);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
 .catalog:hover img {
   filter: blur(0px);
   transform: scale(1.1);
@@ -268,8 +283,7 @@ select {
 .container {
 padding: 10px 10px 30px 10px;
 }
-.btn__toolbar {
-}
+
 .btn__group {
   display: flex;
   justify-content: center;
